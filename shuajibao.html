@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>刷机包专区</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    background:#e5e7eb;
+    padding:16px;
+    font-family:system-ui, sans-serif;
+}
+.back-btn{
+    display:block;
+    margin-bottom:15px;
+    padding:10px;
+    background:#2563eb;
+    color:#fff;
+    text-align:center;
+    border-radius:10px;
+    text-decoration:none;
+}
+.wrap-card{
+    background:#fff;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:15px;
+}
+.card-title{
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+.logo-wrap{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
+    margin:15px 0;
+}
+.brand-logo{
+    width:32px;
+    height:32px;
+    border-radius:8px;
+    border:2px solid #d1d5db;
+    overflow:hidden;
+}
+.brand-logo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.line{
+    width:100%;
+    height:1px;
+    background:#d1d5db;
+    margin:10px 0 20px;
+}
+.brand-btns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-bottom:20px;
+}
+.brand-btn{
+    padding:14px;
+    border-radius:12px;
+    border:2px solid #d1d5db;
+    background:#fff;
+    font-size:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    cursor:pointer;
+}
+.brand-btn.active{
+    background:#2563eb;
+    color:#fff;
+    border-color:#2563eb;
+}
+.brand-btn img{
+    width:24px;
+    height:24px;
+    padding:3px;
+    border:2px solid #d1d5db;
+    border-radius:8px;
+    object-fit:cover;
+}
+.model-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+.model-card{
+    background:#fff;
+    border-radius:14px;
+    padding:16px;
+    border:1px solid #d1d5db;
+    text-align:center;
+}
+.model-name{
+    font-size:15px;
+    color:#111;
+    margin-bottom:12px;
+    font-weight:500;
+    text-align:center;
+}
+.down-btn{
+    display:block;
+    width:100%;
+    padding:10px;
+    background:#2563eb;
+    color:#fff;
+    text-align:center;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:15px;
+}
+</style>
+</head>
+<body>
+<a href="./index.html" class="back-btn">返回首页</a>
+
+<div class="wrap-card">
+    <div class="card-title">刷机包专区</div>
+
+    <div class="logo-wrap">
+        <div class="brand-logo">
+            <img src="https://cy-pic.kuaizhan.com/g3/93/41/66d6-4ac0-4674-b465-21690837a6a552?cysign=7f0733bef93b93218911f22d883eaffc&cyt=1777720413">
+        </div>
+        <div class="brand-logo">
+            <img src="https://cy-pic.kuaizhan.com/g3/76/41/68be-aeeb-4fe6-b5ae-5c09fad36d2a63?cysign=c2fced0898fdc25450a545c3677eb2fa&cyt=1777725503">
+        </div>
+        <div class="brand-logo">
+            <img src="https://cy-pic.kuaizhan.com/g3/6b/a6/667e-6372-4353-9055-47c79c95ddd630?cysign=07583184425c029bf57d1a9342f7997d&cyt=1777725252">
+        </div>
+        <div class="brand-logo">
+            <img src="https://cy-pic.kuaizhan.com/g3/41/a7/e807-2b9d-4d9f-9778-de40ea005f4520?cysign=78a7a492cff8a122f650aa166fde67cc&cyt=1777720522">
+        </div>
+        <div class="brand-logo">
+            <img src="https://cy-pic.kuaizhan.com/g3/d4/06/f9cf-e28b-4676-916f-9012457aba6583?cysign=e053a2f77348a23099dd6d9c4e7b7477&cyt=1777725245">
+        </div>
+        <div class="brand-logo">
+            <img src="https://cy-pic.kuaizhan.com/g3/b4/f7/2f8e-6fb8-446b-8b5d-2011389dc74222?cysign=2df76e494746ab176d96df3d531b4d05&cyt=1777720584">
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="brand-btns">
+        <div class="brand-btn active" data-brand="oneplus">
+            <img src="https://cy-pic.kuaizhan.com/g3/93/41/66d6-4ac0-4674-b465-21690837a6a552?cysign=7f0733bef93b93218911f22d883eaffc&cyt=1777720413">
+            一加
+        </div>
+        <div class="brand-btn" data-brand="realme">
+            <img src="https://cy-pic.kuaizhan.com/g3/b4/f7/2f8e-6fb8-446b-8b5d-2011389dc74222?cysign=2df76e494746ab176d96df3d531b4d05&cyt=1777720584">
+            真我
+        </div>
+        <div class="brand-btn" data-brand="xiaomi">
+            <img src="https://cy-pic.kuaizhan.com/g3/76/41/68be-aeeb-4fe6-b5ae-5c09fad36d2a63?cysign=c2fced0898fdc25450a545c3677eb2fa&cyt=1777725503">
+            小米
+        </div>
+        <div class="brand-btn" data-brand="redmi">
+            <img src="https://cy-pic.kuaizhan.com/g3/d4/06/f9cf-e28b-4676-916f-9012457aba6583?cysign=e053a2f77348a23099dd6d9c4e7b7477&cyt=1777725245">
+            红米
+        </div>
+    </div>
+</div>
+
+<div class="model-container" id="modelBox"></div>
+
+<script>
+const modelBox = document.getElementById('modelBox');
+const brandBtns = document.querySelectorAll('.brand-btn');
+
+// 一加 格式统一大写+空格
+const oneplusData = [
+    {name:"一加 15T",url:"https://pan.quark.cn/s/4c4fe0704b91#/list/share"},
+    {name:"一加 15",url:"https://pan.quark.cn/s/c518ca3d99da#/list/share"},
+    {name:"一加 13T",url:"https://pan.quark.cn/s/c97cfedac27f#/"},
+    {name:"一加 13",url:"https://pan.quark.cn/s/8780ea43b491#/list/share"},
+    {name:"一加 12",url:"https://pan.quark.cn/s/961b35cb94f7#/list/share"},
+    {name:"一加 Ace 6 至尊版",url:"https://pan.quark.cn/s/4115d48d2589#/list/share"},
+    {name:"一加 Ace 6",url:"https://pan.quark.cn/s/c6b4676c1c50#/list/share"},
+    {name:"一加 Ace 6T",url:"https://pan.quark.cn/s/94f8eef83152#/list/share"},
+    {name:"一加 Ace 5 Pro",url:"https://pan.quark.cn/s/0487bb27f501#/list/share"},
+    {name:"一加 Ace 5",url:"https://pan.quark.cn/s/1b89c8dae44a#/list/share"},
+    {name:"一加 Ace 5 至尊版",url:"https://pan.quark.cn/s/bcd4ae874d48#/list/share"},
+    {name:"一加 Ace 5 竞速版",url:"https://pan.quark.cn/s/e3f509f1e79b#/list/share"},
+    {name:"一加 Ace 3 Pro",url:"https://pan.quark.cn/s/62a21edb4b9d#/list/share"},
+    {name:"一加 Ace 3",url:"https://pan.quark.cn/s/cd96357c138a#/list/share"},
+    {name:"一加 Ace 3V",url:"https://pan.quark.cn/s/e171b8c91ee7#/list/share"},
+    {name:"一加 Ace 2 Pro",url:"https://pan.quark.cn/s/9e996c0416db#/list/share"},
+    {name:"一加 Ace 2",url:"https://pan.quark.cn/s/e29f6178ba29#/list/share"},
+    {name:"一加 Ace 2V",url:"https://pan.quark.cn/s/ac230894fa5e#/list/share"}
+];
+
+// 真我：删除GT/GT2/GT2Pro，改名+新增机型+全部链接配齐，格式大写空格
+const realmeData = [
+    {name:"真我 GT8 Pro",url:"https://pan.quark.cn/s/3bbca5a1cf45#/list/share"},
+    {name:"真我 GT8",url:"https://pan.quark.cn/s/f2a456a55eee#/list/share"},
+    {name:"真我 GT7 Pro 竞速版",url:"https://pan.quark.cn/s/0093aa7af753#/list/share"},
+    {name:"真我 GT7 Pro",url:"https://pan.quark.cn/s/bf182006762d#/list/share"},
+    {name:"真我 GT7",url:"https://pan.quark.cn/s/fdc41c23e4a1#/list/share"},
+    {name:"真我 GT6",url:"https://pan.quark.cn/s/7ec93881bd64#/list/share"},
+    {name:"真我 GT5 Pro",url:"https://yun.daxiaamu.com/Realme_Roms/真我 Realme GT5 Pro（RMX3888）/"},
+    {name:"真我 GT5 240W",url:"https://pan.quark.cn/s/8125f7e7a986#/list/share"},
+    {name:"真我 GT5 150W",url:"https://pan.quark.cn/s/7eaf9fad7ec6#/list/share"}
+];
+
+// 小米机型 仅格式统一，链接预留
+const xiaomiData = [
+    {name:"小米 17 Pro Max",url:""},
+    {name:"小米 17 Pro",url:""},
+    {name:"小米 17",url:""},
+    {name:"小米 15 Ultra",url:""},
+    {name:"小米 15 Pro",url:""},
+    {name:"小米 15",url:""},
+    {name:"小米 14 Ultra",url:""},
+    {name:"小米 14 Pro",url:""},
+    {name:"小米 14",url:""},
+    {name:"小米 13 Ultra",url:""},
+    {name:"小米 13 Pro",url:""},
+    {name:"小米 13",url:""},
+    {name:"小米 12 Ultra",url:""},
+    {name:"小米 12 Pro",url:""},
+    {name:"小米 12",url:""}
+];
+
+// 红米机型 仅格式统一，链接预留
+const redmiData = [
+    {name:"红米 K90 Pro Max",url:""},
+    {name:"红米 K90 Pro",url:""},
+    {name:"红米 K90",url:""},
+    {name:"红米 K80 至尊版",url:""},
+    {name:"红米 K80 Pro",url:""},
+    {name:"红米 K80",url:""},
+    {name:"红米 K70 至尊版",url:""},
+    {name:"红米 K70 Pro",url:""},
+    {name:"红米 K70",url:""},
+    {name:"红米 K60P 至尊版",url:""},
+    {name:"红米 K60 Pro",url:""},
+    {name:"红米 K60",url:""},
+    {name:"红米 K50 Pro",url:""},
+    {name:"红米 K50",url:""},
+    {name:"红米 K40 游戏增强版",url:""},
+    {name:"红米 K40",url:""}
+];
+
+// 渲染机型
+function renderList(list){
+    modelBox.innerHTML = "";
+    list.forEach(item=>{
+        modelBox.innerHTML += `
+        <div class="model-card">
+            <div class="model-name">${item.name}</div>
+            <a href="${item.url}" target="_blank" class="down-btn">立即下载</a>
+        </div>
+        `;
+    });
+}
+
+// 默认显示一加
+renderList(oneplusData);
+
+// 品牌切换
+brandBtns.forEach(btn=>{
+    btn.addEventListener('click',()=>{
+        brandBtns.forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+        let brand = btn.dataset.brand;
+        switch(brand){
+            case 'oneplus': renderList(oneplusData); break;
+            case 'realme': renderList(realmeData); break;
+            case 'xiaomi': renderList(xiaomiData); break;
+            case 'redmi': renderList(redmiData); break;
+        }
+    });
+})
+</script>
+</body>
+</html>
