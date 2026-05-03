@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>ROOT工具专区</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    background:#e5e7eb;
+    padding:16px;
+    font-family:system-ui, sans-serif;
+}
+.back-btn{
+    display:block;
+    margin-bottom:15px;
+    padding:10px;
+    background:#2563eb;
+    color:#fff;
+    text-align:center;
+    border-radius:10px;
+    text-decoration:none;
+}
+.wrap-card{
+    background:#fff;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:15px;
+}
+.card-title{
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+.logo-wrap{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
+    margin:15px 0;
+}
+.brand-logo{
+    width:32px;
+    height:32px;
+    border-radius:8px;
+    border:2px solid #d1d5db;
+    overflow:hidden;
+}
+.brand-logo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.line{
+    width:100%;
+    height:1px;
+    background:#d1d5db;
+    margin:10px 0 20px;
+}
+.brand-btns{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-bottom:20px;
+}
+.brand-btn{
+    padding:14px;
+    border-radius:12px;
+    border:2px solid #d1d5db;
+    background:#fff;
+    font-size:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    cursor:pointer;
+}
+.brand-btn.active{
+    background:#2563eb;
+    color:#fff;
+    border-color:#2563eb;
+}
+.brand-btn img{
+    width:24px;
+    height:24px;
+    padding:3px;
+    border:2px solid #d1d5db;
+    border-radius:8px;
+    object-fit:cover;
+}
+.root-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:12px;
+}
+.root-card{
+    background:#fff;
+    border-radius:14px;
+    padding:16px;
+    border:1px solid #d1d5db;
+    text-align:center;
+}
+.root-desc{
+    font-size:15px;
+    color:#111;
+    margin-bottom:12px;
+    font-weight:500;
+    text-align:center;
+}
+.down-btn{
+    display:block;
+    width:100%;
+    padding:10px;
+    background:#2563eb;
+    color:#fff;
+    text-align:center;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:15px;
+}
+</style>
+</head>
+<body>
+<a href="./index.html" class="back-btn">返回首页</a>
+<div class="wrap-card">
+    <div class="card-title">ROOT工具专区</div>
+    <div class="logo-wrap">
+        <div class="brand-logo">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2PVp9pKiNa79mMkGpEeFsNSWdoCYDAACVSUAAoHJuFf8V8aTIVwx0DsE.png">
+        </div>
+        <div class="brand-logo">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Pdp9pL1roVJZniz_zikPcZf_v4PxAACWCUAAoHJuFfScPkPXq1wbTsE.png">
+        </div>
+        <div class="brand-logo">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Php9pMME6_fvSBqtH7y4ssfCI5o-wACWSUAAoHJuFeoAqSg8J7LZzsE.jpg">
+        </div>
+        <div class="brand-logo">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Plp9pNHTqbuP3IUoiBGZ0WOYjDl7wACWiUAAoHJuFcvhnalFDQ6HzsE.jpg">
+        </div>
+        <div class="brand-logo">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Ppp9pNpFb_LCFDhvdawJSImOJo7mQACWyUAAoHJuFeIa2FeKndqQTsE.jpg">
+        </div>
+        <div class="brand-logo">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Ptp9pOUb8G1YU8gqZYChUfg_oFnSQACXCUAAoHJuFcSaPIWAzDy9jsE.jpg">
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="brand-btns">
+        <div class="brand-btn active" data-brand="oneplus">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2PVp9pKiNa79mMkGpEeFsNSWdoCYDAACVSUAAoHJuFf8V8aTIVwx0DsE.png">
+            一加
+        </div>
+        <div class="brand-btn" data-brand="xiaomi">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Pdp9pL1roVJZniz_zikPcZf_v4PxAACWCUAAoHJuFfScPkPXq1wbTsE.png">
+            小米
+        </div>
+        <div class="brand-btn" data-brand="hongmo">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Php9pMME6_fvSBqtH7y4ssfCI5o-wACWSUAAoHJuFeoAqSg8J7LZzsE.jpg">
+            红魔
+        </div>
+        <div class="brand-btn" data-brand="lianxiang">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Plp9pNHTqbuP3IUoiBGZ0WOYjDl7wACWiUAAoHJuFcvhnalFDQ6HzsE.jpg">
+            联想
+        </div>
+        <div class="brand-btn" data-brand="redmi">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Ppp9pNpFb_LCFDhvdawJSImOJo7mQACWyUAAoHJuFeIa2FeKndqQTsE.jpg">
+            红米
+        </div>
+        <div class="brand-btn" data-brand="realme">
+            <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAET2Ptp9pOUb8G1YU8gqZYChUfg_oFnSQACXCUAAoHJuFcSaPIWAzDy9jsE.jpg">
+            真我
+        </div>
+    </div>
+</div>
+<div class="root-container" id="rootBox"></div>
+<script>
+const rootBox = document.getElementById('rootBox');
+const brandBtns = document.querySelectorAll('.brand-btn');
+const rootTexts = {
+    oneplus: "一加全机型ROOT工具",
+    xiaomi: "小米全机型ROOT工具",
+    hongmo: "红魔全机型ROOT工具",
+    lianxiang: "联想全机型ROOT工具",
+    redmi: "红米全机型ROOT工具",
+    realme: "真我全机型ROOT工具"
+};
+const rootUrls = {
+    oneplus: "https://pan.quark.cn/s/a9c426c83af5#/list/share",
+    xiaomi: "https://1851738406.share.123865.com/123pan/nluBvd-xGEZ3",
+    hongmo: "https://1851738406.share.123865.com/123pan/nluBvd-kxfZ3",
+    lianxiang: "#",
+    redmi: "https://1851738406.share.123865.com/123pan/nluBvd-ReLb3",
+    realme: "#"
+};
+function renderRoot(text, url){
+    rootBox.innerHTML = `
+        <div class="root-card">
+            <div class="root-desc">${text}</div>
+            <a href="${url}" target="_blank" class="down-btn">立即下载</a>
+        </div>
+    `;
+}
+renderRoot(rootTexts.oneplus, rootUrls.oneplus);
+brandBtns.forEach(btn=>{
+    btn.addEventListener('click',()=>{
+        brandBtns.forEach(b=>b.classList.remove('active'));
+        btn.classList.add('active');
+        let brand = btn.dataset.brand;
+        renderRoot(rootTexts[brand], rootUrls[brand]);
+    });
+});
+</script>
+</body>
+</html>
